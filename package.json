@@ -1,0 +1,12 @@
+{
+  "name": "pod-node-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/AxelRHD/pod-node-playground.git",
+  "author": "AxelRHD <axelrhd@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
