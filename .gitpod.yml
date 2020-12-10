@@ -2,3 +2,9 @@
 tasks:
   - init: yarn install
     command: yarn build
+
+# Ports to expose on workspace startup (optional)
+ports:
+  - port: 1234
+    onOpen: open-preview
+  - port: 30000

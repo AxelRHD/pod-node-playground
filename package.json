@@ -6,7 +6,14 @@
   "repository": "https://github.com/AxelRHD/pod-node-playground.git",
   "author": "AxelRHD <axelrhd@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html --hmr-port 30000"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
